@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E31667324814A2B00AEEAA2 /* MSParallaxHorizonFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E31667124814A2B00AEEAA2 /* MSParallaxHorizonFlowLayout.m */; };
+		0E31667C248151E900AEEAA2 /* MSParallaxCollectionViewBack.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E31667B248151E900AEEAA2 /* MSParallaxCollectionViewBack.m */; };
+		0EC40F5C2481168700372ECC /* MSParallaxAnimationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC40F5B2481168700372ECC /* MSParallaxAnimationCell.m */; };
+		0EC40F5F24811D0400372ECC /* MSParallaxCollectionViewMiddle.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC40F5E24811D0400372ECC /* MSParallaxCollectionViewMiddle.m */; };
+		0EC40F6224811D1700372ECC /* MSParallaxCollectionViewFront.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC40F6124811D1700372ECC /* MSParallaxCollectionViewFront.m */; };
+		FF01804E2480EC1B00BE9117 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF01804D2480EC1B00BE9117 /* AppDelegate.m */; };
+		FF0180592480EC1C00BE9117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF0180582480EC1C00BE9117 /* Assets.xcassets */; };
+		FF01805F2480EC1C00BE9117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF01805E2480EC1C00BE9117 /* main.m */; };
+		FF0180832480EC9700BE9117 /* MSParallaxViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF0180822480EC9700BE9117 /* MSParallaxViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF0180652480EC1C00BE9117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0180412480EC1B00BE9117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0180482480EC1B00BE9117;
+			remoteInfo = Test_Demo;
+		};
+		FF0180702480EC1C00BE9117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF0180412480EC1B00BE9117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF0180482480EC1B00BE9117;
+			remoteInfo = Test_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E31667124814A2B00AEEAA2 /* MSParallaxHorizonFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSParallaxHorizonFlowLayout.m; sourceTree = "<group>"; };
+		0E31667224814A2B00AEEAA2 /* MSParallaxHorizonFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSParallaxHorizonFlowLayout.h; sourceTree = "<group>"; };
+		0E31667A248151E900AEEAA2 /* MSParallaxCollectionViewBack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSParallaxCollectionViewBack.h; sourceTree = "<group>"; };
+		0E31667B248151E900AEEAA2 /* MSParallaxCollectionViewBack.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSParallaxCollectionViewBack.m; sourceTree = "<group>"; };
+		0EC40F5A2481168700372ECC /* MSParallaxAnimationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSParallaxAnimationCell.h; sourceTree = "<group>"; };
+		0EC40F5B2481168700372ECC /* MSParallaxAnimationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSParallaxAnimationCell.m; sourceTree = "<group>"; };
+		0EC40F5D24811D0400372ECC /* MSParallaxCollectionViewMiddle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSParallaxCollectionViewMiddle.h; sourceTree = "<group>"; };
+		0EC40F5E24811D0400372ECC /* MSParallaxCollectionViewMiddle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSParallaxCollectionViewMiddle.m; sourceTree = "<group>"; };
+		0EC40F6024811D1700372ECC /* MSParallaxCollectionViewFront.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSParallaxCollectionViewFront.h; sourceTree = "<group>"; };
+		0EC40F6124811D1700372ECC /* MSParallaxCollectionViewFront.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSParallaxCollectionViewFront.m; sourceTree = "<group>"; };
+		FF0180492480EC1B00BE9117 /* MSParallaxDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MSParallaxDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF01804C2480EC1B00BE9117 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF01804D2480EC1B00BE9117 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF0180582480EC1C00BE9117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF01805D2480EC1C00BE9117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF01805E2480EC1C00BE9117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF0180642480EC1C00BE9117 /* MSParallaxDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSParallaxDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF01806F2480EC1C00BE9117 /* MSParallaxDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MSParallaxDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF0180812480EC9700BE9117 /* MSParallaxViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MSParallaxViewController.h; sourceTree = "<group>"; };
+		FF0180822480EC9700BE9117 /* MSParallaxViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MSParallaxViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF0180462480EC1B00BE9117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0180612480EC1C00BE9117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF01806C2480EC1C00BE9117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0EC40F632481234000372ECC /* animationView */ = {
+			isa = PBXGroup;
+			children = (
+				0EC40F5A2481168700372ECC /* MSParallaxAnimationCell.h */,
+				0EC40F5B2481168700372ECC /* MSParallaxAnimationCell.m */,
+				0E31667A248151E900AEEAA2 /* MSParallaxCollectionViewBack.h */,
+				0E31667B248151E900AEEAA2 /* MSParallaxCollectionViewBack.m */,
+				0EC40F5D24811D0400372ECC /* MSParallaxCollectionViewMiddle.h */,
+				0EC40F5E24811D0400372ECC /* MSParallaxCollectionViewMiddle.m */,
+				0EC40F6024811D1700372ECC /* MSParallaxCollectionViewFront.h */,
+				0EC40F6124811D1700372ECC /* MSParallaxCollectionViewFront.m */,
+				0E31667224814A2B00AEEAA2 /* MSParallaxHorizonFlowLayout.h */,
+				0E31667124814A2B00AEEAA2 /* MSParallaxHorizonFlowLayout.m */,
+			);
+			path = animationView;
+			sourceTree = "<group>";
+		};
+		FF0180402480EC1B00BE9117 = {
+			isa = PBXGroup;
+			children = (
+				FF01804B2480EC1B00BE9117 /* MSParallaxDemo */,
+				FF01804A2480EC1B00BE9117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF01804A2480EC1B00BE9117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF0180492480EC1B00BE9117 /* MSParallaxDemo.app */,
+				FF0180642480EC1C00BE9117 /* MSParallaxDemoTests.xctest */,
+				FF01806F2480EC1C00BE9117 /* MSParallaxDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF01804B2480EC1B00BE9117 /* MSParallaxDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FF01804C2480EC1B00BE9117 /* AppDelegate.h */,
+				FF01804D2480EC1B00BE9117 /* AppDelegate.m */,
+				FF0180812480EC9700BE9117 /* MSParallaxViewController.h */,
+				FF0180822480EC9700BE9117 /* MSParallaxViewController.m */,
+				0EC40F632481234000372ECC /* animationView */,
+				FF0180582480EC1C00BE9117 /* Assets.xcassets */,
+				FF01805D2480EC1C00BE9117 /* Info.plist */,
+				FF01805E2480EC1C00BE9117 /* main.m */,
+			);
+			path = MSParallaxDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF0180482480EC1B00BE9117 /* MSParallaxDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF0180782480EC1C00BE9117 /* Build configuration list for PBXNativeTarget "MSParallaxDemo" */;
+			buildPhases = (
+				FF0180452480EC1B00BE9117 /* Sources */,
+				FF0180462480EC1B00BE9117 /* Frameworks */,
+				FF0180472480EC1B00BE9117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MSParallaxDemo;
+			productName = Test_Demo;
+			productReference = FF0180492480EC1B00BE9117 /* MSParallaxDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF0180632480EC1C00BE9117 /* MSParallaxDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF01807B2480EC1C00BE9117 /* Build configuration list for PBXNativeTarget "MSParallaxDemoTests" */;
+			buildPhases = (
+				FF0180602480EC1C00BE9117 /* Sources */,
+				FF0180612480EC1C00BE9117 /* Frameworks */,
+				FF0180622480EC1C00BE9117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0180662480EC1C00BE9117 /* PBXTargetDependency */,
+			);
+			name = MSParallaxDemoTests;
+			productName = Test_DemoTests;
+			productReference = FF0180642480EC1C00BE9117 /* MSParallaxDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF01806E2480EC1C00BE9117 /* MSParallaxDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF01807E2480EC1C00BE9117 /* Build configuration list for PBXNativeTarget "MSParallaxDemoUITests" */;
+			buildPhases = (
+				FF01806B2480EC1C00BE9117 /* Sources */,
+				FF01806C2480EC1C00BE9117 /* Frameworks */,
+				FF01806D2480EC1C00BE9117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF0180712480EC1C00BE9117 /* PBXTargetDependency */,
+			);
+			name = MSParallaxDemoUITests;
+			productName = Test_DemoUITests;
+			productReference = FF01806F2480EC1C00BE9117 /* MSParallaxDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF0180412480EC1B00BE9117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "曹笑竹";
+				TargetAttributes = {
+					FF0180482480EC1B00BE9117 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					FF0180632480EC1C00BE9117 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FF0180482480EC1B00BE9117;
+					};
+					FF01806E2480EC1C00BE9117 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = FF0180482480EC1B00BE9117;
+					};
+				};
+			};
+			buildConfigurationList = FF0180442480EC1B00BE9117 /* Build configuration list for PBXProject "MSParallaxDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF0180402480EC1B00BE9117;
+			productRefGroup = FF01804A2480EC1B00BE9117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF0180482480EC1B00BE9117 /* MSParallaxDemo */,
+				FF0180632480EC1C00BE9117 /* MSParallaxDemoTests */,
+				FF01806E2480EC1C00BE9117 /* MSParallaxDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF0180472480EC1B00BE9117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0180592480EC1C00BE9117 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0180622480EC1C00BE9117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF01806D2480EC1C00BE9117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF0180452480EC1B00BE9117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E31667324814A2B00AEEAA2 /* MSParallaxHorizonFlowLayout.m in Sources */,
+				0E31667C248151E900AEEAA2 /* MSParallaxCollectionViewBack.m in Sources */,
+				FF01804E2480EC1B00BE9117 /* AppDelegate.m in Sources */,
+				0EC40F5C2481168700372ECC /* MSParallaxAnimationCell.m in Sources */,
+				0EC40F6224811D1700372ECC /* MSParallaxCollectionViewFront.m in Sources */,
+				FF01805F2480EC1C00BE9117 /* main.m in Sources */,
+				FF0180832480EC9700BE9117 /* MSParallaxViewController.m in Sources */,
+				0EC40F5F24811D0400372ECC /* MSParallaxCollectionViewMiddle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0180602480EC1C00BE9117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF01806B2480EC1C00BE9117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF0180662480EC1C00BE9117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0180482480EC1B00BE9117 /* MSParallaxDemo */;
+			targetProxy = FF0180652480EC1C00BE9117 /* PBXContainerItemProxy */;
+		};
+		FF0180712480EC1C00BE9117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF0180482480EC1B00BE9117 /* MSParallaxDemo */;
+			targetProxy = FF0180702480EC1C00BE9117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FF0180762480EC1C00BE9117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF0180772480EC1C00BE9117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF0180792480EC1C00BE9117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BF5CN26RG;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = MSParallaxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ByondSoft.MSParallaxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		FF01807A2480EC1C00BE9117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BF5CN26RG;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = MSParallaxDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ByondSoft.MSParallaxDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		FF01807C2480EC1C00BE9117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BF5CN26RG;
+				INFOPLIST_FILE = Test_DemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ByondSoft.Test-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSParallaxDemo.app/MSParallaxDemo";
+			};
+			name = Debug;
+		};
+		FF01807D2480EC1C00BE9117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BF5CN26RG;
+				INFOPLIST_FILE = Test_DemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ByondSoft.Test-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MSParallaxDemo.app/MSParallaxDemo";
+			};
+			name = Release;
+		};
+		FF01807F2480EC1C00BE9117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BF5CN26RG;
+				INFOPLIST_FILE = Test_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ByondSoft.Test-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Test_Demo;
+			};
+			name = Debug;
+		};
+		FF0180802480EC1C00BE9117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6BF5CN26RG;
+				INFOPLIST_FILE = Test_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ByondSoft.Test-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Test_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF0180442480EC1B00BE9117 /* Build configuration list for PBXProject "MSParallaxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0180762480EC1C00BE9117 /* Debug */,
+				FF0180772480EC1C00BE9117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF0180782480EC1C00BE9117 /* Build configuration list for PBXNativeTarget "MSParallaxDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF0180792480EC1C00BE9117 /* Debug */,
+				FF01807A2480EC1C00BE9117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF01807B2480EC1C00BE9117 /* Build configuration list for PBXNativeTarget "MSParallaxDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF01807C2480EC1C00BE9117 /* Debug */,
+				FF01807D2480EC1C00BE9117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF01807E2480EC1C00BE9117 /* Build configuration list for PBXNativeTarget "MSParallaxDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF01807F2480EC1C00BE9117 /* Debug */,
+				FF0180802480EC1C00BE9117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF0180412480EC1B00BE9117 /* Project object */;
+}
